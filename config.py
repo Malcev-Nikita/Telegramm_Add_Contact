@@ -1,3 +1,3 @@
-NAME = 'session_name'
+NAME = 'session_names'
 API_ID = 25017882
 API_HASH = '93a23aef3cc630b7e883011af25640a0'

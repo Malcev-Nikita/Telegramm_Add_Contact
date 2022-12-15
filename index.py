@@ -11,8 +11,8 @@ fd = f.read()
 parse = fd.split('\n')
 
 i = 0
-a = 0
-limit = 300
+a = 300
+limit = 500
 
 with TelegramClient(NAME, API_ID, API_HASH) as client:
 
@@ -30,7 +30,7 @@ with TelegramClient(NAME, API_ID, API_HASH) as client:
             ))
 
             i += 1
-            print(f'Base {a + i}')
+            print(f'{a + i}: Base {a + i} - {parse[a + i]}')
 
         i = 0
         a += 50
